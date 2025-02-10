@@ -1,0 +1,3071 @@
+{
+    "action": [
+        [
+            1783417854, 
+            "基础变量", 
+            674820298, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ITEM_ENTITY", 
+                                "名品", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100031, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "名品"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 674820298000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "名品品级", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "名品品级"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 674820298000003, 
+            "enable": true
+        }, 
+        [
+            1882726279, 
+            "赋值", 
+            674820298, 
+            "action_type"
+        ], 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "名品品级", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100015, 
+                                    "args_list": [
+                                        "<="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        5
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "FLOAT_COMPARE", 
+                            "element_id": 674820298000004, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        [
+                            1969619418, 
+                            "通用", 
+                            674820298, 
+                            "action_type"
+                        ], 
+                        {
+                            "action_type": "SET_ITEM_LEVEL", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "名品品级", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000005, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ITEM_ADD_TAG", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "通用"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000006, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ICON", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100115, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100224, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100032, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "KEY_OF_ITEM"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100031, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "ITEM_ENTITY", 
+                                                                                                "名品", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 4
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "级头像"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_KV"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_IMAGE_KEY_BY_INT"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXTURE_BY_ICON_ID"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000007, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "strength"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级统帅"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000008, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "agility"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级武力"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000009, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "intelligence"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级智力"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000010, 
+                            "enable": true
+                        }, 
+                        [
+                            1651607088, 
+                            "自定义值赋值", 
+                            674820298, 
+                            "action_type"
+                        ], 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "统帅"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级统帅"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000011, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "武力"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级武力"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000012, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "智力"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级智力"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000013, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "头像"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级头像"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000014, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "提示"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "提示"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000015, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "类型"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "类型"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000016, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "描述"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级描述"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000017, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "退款"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "级退款"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000018, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100175, 
+                                    "args_list": [
+                                        3
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "名品赋值完毕！名品："
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ITEM_NAME"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "品级："
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100031, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "ITEM_ENTITY", 
+                                                                                                "名品", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 4
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_ITEM_LEVEL"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "统帅："
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100031, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "ITEM_ENTITY", 
+                                                                                        "名品", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 4
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100300, 
+                                                                            "args_list": [
+                                                                                "ATTR_BONUS"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "strength"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_ITEM_ATTR"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "武力："
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100031, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "ITEM_ENTITY", 
+                                                                                                "名品", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 4
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100300, 
+                                                                                    "args_list": [
+                                                                                        "ATTR_BONUS"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100042, 
+                                                                                    "args_list": [
+                                                                                        "agility"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_ITEM_ATTR"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "智力："
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100031, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "ITEM_ENTITY", 
+                                                                                                "名品", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 4
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100300, 
+                                                                                    "args_list": [
+                                                                                        "ATTR_BONUS"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100042, 
+                                                                                    "args_list": [
+                                                                                        "intelligence"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_ITEM_ATTR"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000019, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        [
+                            2134351224, 
+                            "专属", 
+                            674820298, 
+                            "action_type"
+                        ], 
+                        {
+                            "action_type": "SET_ITEM_LEVEL", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "名品品级", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000020, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ITEM_ADD_TAG", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "专属"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000021, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "strength"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "统帅"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000022, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "agility"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "武力"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000023, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ATTR", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100300, 
+                                    "args_list": [
+                                        "ATTR_BONUS"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100042, 
+                                    "args_list": [
+                                        "intelligence"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "智力"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000024, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ITEM_ICON", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100115, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100224, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100032, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100031, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "ITEM_ENTITY", 
+                                                                                "名品", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 4
+                                                                }
+                                                            ], 
+                                                            "sub_type": "KEY_OF_ITEM"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "头像"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_KV"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_IMAGE_KEY_BY_INT"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXTURE_BY_ICON_ID"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000025, 
+                            "enable": true
+                        }, 
+                        [
+                            1928557284, 
+                            "自定义值赋值", 
+                            674820298, 
+                            "action_type"
+                        ], 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "统帅"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "统帅"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000026, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "武力"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "武力"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000027, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "智力"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "智力"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000028, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "头像"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "头像"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000029, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "专属武将"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "专属武将"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000030, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "提示"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "提示"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000031, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "类型"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "类型"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000032, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "描述"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "描述"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000033, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_ENTITY_KV", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ITEM_ENTITY", 
+                                                "名品", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 4
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "退款"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100032, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100031, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "ITEM_ENTITY", 
+                                                                "名品", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 4
+                                                }
+                                            ], 
+                                            "sub_type": "KEY_OF_ITEM"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "退款"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000034, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100175, 
+                                    "args_list": [
+                                        3
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "专属赋值完毕！名品："
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100031, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "ITEM_ENTITY", 
+                                                                        "名品", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 4
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ITEM_NAME"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "品级："
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100031, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "ITEM_ENTITY", 
+                                                                                        "名品", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 4
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_ITEM_LEVEL"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "STR_JOIN"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 674820298000035, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 674820298000036, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1293333092
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 674820298000001, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "iS3MnuagEe67yMAlpZA-SX", 
+    "p_trigger_id": null, 
+    "trigger_id": 674820298, 
+    "trigger_name": "名品属性赋值", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "名品品级": 0
+            }, 
+            "ITEM_ENTITY": {
+                "名品": 0
+            }
+        }, 
+        {
+            "名品": 0, 
+            "名品品级": 0
+        }, 
+        [
+            "名品", 
+            "名品品级"
+        ]
+    ]
+}

@@ -1,0 +1,2651 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "玩家id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000004, 
+            "enable": true
+        }, 
+        {
+            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+            "args_list": [
+                {
+                    "arg_type": 100175, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "移入"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "武将名"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "STR_JOIN"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000005, 
+            "enable": true
+        }, 
+        [
+            1139636333, 
+            "控件定位", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_WORLD_POS", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "b85ebfa0-31e7-493d-8b84-ce1edaad6e88"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "待对齐控件"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b85ebfa0-31e7-493d-8b84-ce1edaad6e88"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "call_rt_index": 0, 
+                    "op_arg": [
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "ab5a9a61a37b11edaf2b54bf646ef685"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "待对齐控件"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "b85ebfa0-31e7-493d-8b84-ce1edaad6e88"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "call_rt_index": 1, 
+                    "op_arg": [
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "ab5a9a61a37b11edaf2b54bf646ef685"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000006, 
+            "enable": true
+        }, 
+        [
+            2095676202, 
+            "获取武将信息", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "武将名", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "武将名"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000007, 
+            "enable": true
+        }, 
+        [
+            1241044527, 
+            "定位武将信息", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "武将总索引", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                27
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "武将名", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "index_total"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000008, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "武将品级", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                27
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "武将名", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "class"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000009, 
+            "enable": true
+        }, 
+        [
+            1773220731, 
+            "中台同步", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        [
+                            "STRING", 
+                            "当前移入武将名"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "武将名", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000010, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        [
+                            "BOOLEAN", 
+                            "武将悬浮信息激活态"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000011, 
+            "enable": true
+        }, 
+        {
+            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+            "args_list": [
+                {
+                    "arg_type": 100175, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "当前移入武将名："
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "武将名", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "sub_type": "ANY_VAR_TO_STR"
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "STR_JOIN"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000012, 
+            "enable": true
+        }, 
+        [
+            1984322148, 
+            "武将名", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "f40e78ed-b2b4-4983-90ab-3f2cf5282f85"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "武将名", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000013, 
+            "enable": true
+        }, 
+        [
+            1985069084, 
+            "头像", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_IMAGE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "abcd37af-4e68-446e-975d-96248b4ca487"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100224, 
+                    "args_list": [
+                        {
+                            "arg_type": 100039, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ABILITY_NAME", 
+                                        "总武将池"
+                                    ]
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "武将总索引", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "sub_type": "GET_ICON_ID_BY_ABILITY_TYPE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000014, 
+            "enable": true
+        }, 
+        [
+            1044486337, 
+            "头像框及背景", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_IMAGE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "86ee03fb-1348-4452-b274-d1083e11da49"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100224, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "武将头像框"
+                                ], 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "武将品级", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "GET_IMAGE_KEY_BY_INT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000015, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_IMAGE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "170608d9-4a7c-4fe6-bd7b-9a4b6d83daaa"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100224, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "悬浮信息品级背景"
+                                ], 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "武将品级", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "GET_IMAGE_KEY_BY_INT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000016, 
+            "enable": true
+        }, 
+        [
+            2034523237, 
+            "价格", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100240, 
+                                            "args_list": [
+                                                "是否商店"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_CUS_EVENT_PARAM"
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "=="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "BOOL_COMPARE", 
+                            "element_id": 1782120756000017, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "35482fd8-5d3f-4e8f-9b1e-84d2856d1cd3"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        [
+                                                            "FLOAT", 
+                                                            "武将价格标准"
+                                                        ], 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "武将品级", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": 2
+                                                }
+                                            ], 
+                                            "sub_type": "F2I"
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000018, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "35482fd8-5d3f-4e8f-9b1e-84d2856d1cd3"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                [
+                                                                    "FLOAT", 
+                                                                    "武将价格标准"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "武将品级", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100017, 
+                                                            "args_list": [
+                                                                "*"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "FLOAT", 
+                                                                        "武将退款比例标准"
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "武将品级", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                }
+                                            ], 
+                                            "sub_type": "F2I"
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000019, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000020, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        [
+            2054298585, 
+            "人口", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "武将品级", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "I2F"
+                                }, 
+                                {
+                                    "arg_type": 100015, 
+                                    "args_list": [
+                                        "<="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                [
+                                                    "PLAYER", 
+                                                    "玩家"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "玩家id", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100037, 
+                                            "args_list": [
+                                                "yi-MMGJxEe2fC1S-ZG72hX"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_ROLE_RES"
+                                }
+                            ], 
+                            "condition_type": "FLOAT_COMPARE", 
+                            "element_id": 1782120756000021, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "9d4194de-600f-40b9-9638-c3404834986d"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                [
+                                                    "STRING", 
+                                                    "强调金/警告红/提示绿"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "武将品级", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000022, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "9d4194de-600f-40b9-9638-c3404834986d"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                [
+                                                    "STRING", 
+                                                    "强调金/警告红/提示绿"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        2
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "武将品级", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000023, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000024, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        [
+            1554128326, 
+            "tag", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                27
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "武将名", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "tag_1"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "=="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "兵刃"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "STRING_COMPARE", 
+                            "element_id": 1782120756000025, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_IMAGE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "9bd7ca77-96ae-4ed0-b743-60bbb39984ba"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100224, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                134259691
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_IMAGE_KEY_BY_INT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000026, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "8fe1b10d-a596-49f5-b8d3-46200c4696a1"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                27
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "武将名", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "#-1546816929#eca"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_TEXT_CONFIG"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000027, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_IMAGE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "9bd7ca77-96ae-4ed0-b743-60bbb39984ba"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100224, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                134223465
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_IMAGE_KEY_BY_INT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000028, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "8fe1b10d-a596-49f5-b8d3-46200c4696a1"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                27
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "武将名", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "#-1546816929#eca"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_TEXT_CONFIG"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000029, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000030, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "5a8aa51c-79f4-4b3e-a57b-98202521660c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                27
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "武将名", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "#762960662#eca"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TEXT_CONFIG"
+                        }
+                    ], 
+                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000031, 
+            "enable": true
+        }, 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                27
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "STRING", 
+                                                        "武将名", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "atk_range"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                }, 
+                                {
+                                    "arg_type": 100015, 
+                                    "args_list": [
+                                        ">"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        450.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "FLOAT_COMPARE", 
+                            "element_id": 1782120756000032, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "85a71612-79a0-4723-af54-2e5e61c4b16d"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "#-2131619898#eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXT_CONFIG"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000033, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "85a71612-79a0-4723-af54-2e5e61c4b16d"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "#-1978826330#eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXT_CONFIG"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1782120756000034, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000035, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        [
+            2120309412, 
+            "主被动文案", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8ec5d13b-e95c-4513-b83b-0955e3559415"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "#796789407#eca"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TEXT_CONFIG"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        27
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "武将名", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "#211719652#eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXT_CONFIG"
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "STR_JOIN"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000036, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "4c19d840-73c3-4761-8db6-0e36e1501627"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                27
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "武将名", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "#1094200265#eca"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TEXT_CONFIG"
+                        }
+                    ], 
+                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000037, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e0d285b4-5080-4d71-985b-9b8ff168475e"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "#-283698362#eca"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TEXT_CONFIG"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        27
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "武将名", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "#-675441618#eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_TEXT_CONFIG"
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_TABLE_VAR_ND"
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "STR_JOIN"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000038, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_TEXT", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "2bbe4514-1b4d-4751-b407-b24db5f54e80"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                27
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "武将名", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "#-894802452#eca"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TEXT_CONFIG"
+                        }
+                    ], 
+                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000039, 
+            "enable": true
+        }, 
+        [
+            1725013292, 
+            "控件同步", 
+            1782120756, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "b85ebfa0-31e7-493d-8b84-ce1edaad6e88"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1782120756000040, 
+            "enable": true
+        }, 
+        1541325204
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "显隐"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 1782120756000002, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        [
+                            "BOOLEAN", 
+                            "悬浮提示开关"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100240, 
+                                    "args_list": [
+                                        "玩家id"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_CUS_EVENT_PARAM"
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 1782120756000003, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1603143332
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1782120756000001, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "iaQ1HuagEe66kMAlpZA-SY", 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "1541325204": {
+            "action": [
+                {
+                    "action_type": "SEND_CUSTOM_EVENT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100238, 
+                            "args_list": [
+                                1247821163
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1541325204000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "UNREG_TRIGGER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100178, 
+                            "args_list": [], 
+                            "sub_type": "CURRENT_DYNAMIC_TRIGGER_INSTANCE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1541325204000009, 
+                    "enable": false
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                20
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1541325204000002, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1782120756, 
+            "trigger_id": 1541325204, 
+            "trigger_name": "快捷遣散", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_id": 1782120756, 
+    "trigger_name": "[武将]信息同步_显示", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "武将品级": 0, 
+                "武将总索引": 0, 
+                "玩家id": 0
+            }, 
+            "STRING": {
+                "武将名": ""
+            }
+        }, 
+        {
+            "武将名": 0, 
+            "武将品级": 0, 
+            "武将总索引": 0, 
+            "玩家id": 0
+        }, 
+        [
+            "武将名", 
+            "武将品级", 
+            "武将总索引", 
+            "玩家id"
+        ]
+    ]
+}

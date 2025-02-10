@@ -1,0 +1,331 @@
+{
+    "local_variable": {
+        "782458882": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1704886273": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "782458882": {
+            "action": [
+                [
+                    2108748407, 
+                    "\u5931\u53bb\u88ab\u52a8\u6548\u679c", 
+                    782458882, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "ADD_ATTR", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100300, 
+                            "args_list": [
+                                "ATTR_ALL_RATIO"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100042, 
+                            "args_list": [
+                                "attack_phy"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        0.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100017, 
+                                    "args_list": [
+                                        "-"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "\u6570\u503c\u6682\u5b58", 
+                                            "actor"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "sub_type": "ARITHMETIC_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 782458882000021, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 782458882000002, 
+                    "enable": true, 
+                    "event_type": "LOSS_MODIFIER"
+                }
+            ], 
+            "group_id": 134256966, 
+            "p_trigger_id": null, 
+            "trigger_id": 782458882, 
+            "trigger_name": "\u5931\u53bb\u9b54\u6cd5\u6548\u679c", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }, 
+        "1704886273": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u6570\u503c\u6682\u5b58", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100076, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100076, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_MODIFIER_FROM_EVENT"
+                                        }
+                                    ], 
+                                    "sub_type": "GET_HALO_MODIFIER"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100014, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100076, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100076, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": "GET_MODIFIER_FROM_EVENT"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "GET_HALO_MODIFIER"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_BUFF_SOURCE"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100182, 
+                                                                    "args_list": [
+                                                                        2
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        2
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "UNIT_ABILITY"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ABILITY_LEVEL"
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "\u7ea7\u6570\u503c"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "STR_JOIN"
+                                }
+                            ], 
+                            "sub_type": "GET_FLOAT_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1704886273484440, 
+                    "enable": true
+                }, 
+                [
+                    1287484436, 
+                    "\u83b7\u5f97\u88ab\u52a8\u6548\u679c", 
+                    1704886273, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "ADD_ATTR", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100300, 
+                            "args_list": [
+                                "ATTR_ALL_RATIO"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100042, 
+                            "args_list": [
+                                "attack_phy"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u6570\u503c\u6682\u5b58", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 696365057000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1704886273000002, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
+            "group_id": 134256966, 
+            "p_trigger_id": null, 
+            "trigger_id": 1704886273, 
+            "trigger_name": "\u83b7\u5f97\u9b54\u6cd5\u6548\u679c", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        782458882, 
+                        "\u5931\u53bb\u9b54\u6cd5\u6548\u679c"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1704886273, 
+                        "\u83b7\u5f97\u9b54\u6cd5\u6548\u679c"
+                    ]
+                }
+            ], 
+            "key": 134256966, 
+            "name": "134256966"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "FLOAT": {
+            "\u6570\u503c\u6682\u5b58": 0.0
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6570\u503c\u6682\u5b58", 
+                "\u6570\u503c\u6682\u5b58"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "\u6570\u503c\u6682\u5b58": 0
+    }
+}

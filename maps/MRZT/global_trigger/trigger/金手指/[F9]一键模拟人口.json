@@ -1,0 +1,202 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 708370473000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "ROLE_SET_RES", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100037, 
+                    "args_list": [
+                        "yi-MMGJxEe2fC1S-ZG72hX"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        30.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 708370473000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "ROLE_SET_RES", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100037, 
+                    "args_list": [
+                        "Z2EKAGnFEe2yVRgxv21IIl"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        30.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 708370473000004, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SEND_CUSTOM_EVENT", 
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1117567019
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 708370473000005, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        67
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 708370473000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "iL1+oeagEe6I1MAlpZA-Sf", 
+    "p_trigger_id": null, 
+    "trigger_id": 708370473, 
+    "trigger_name": "[F9]一键模拟人口", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }
+        }, 
+        {
+            "玩家id": 0
+        }, 
+        [
+            "玩家id"
+        ]
+    ]
+}

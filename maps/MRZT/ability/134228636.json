@@ -1,0 +1,256 @@
+{
+    "local_variable": {
+        "486866945": {
+            "variable_dict": {
+                "MODIFIER": {
+                    "buff": 0
+                }, 
+                "UNIT_ENTITY": {
+                    "u": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "buff": 0, 
+                "u": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "486866945": {
+            "action": [
+                [
+                    1649679140, 
+                    "\u53d8\u91cf\u6682\u5b58", 
+                    486866945, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "u", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }
+                            ], 
+                            "sub_type": "GET_ABILITY_OWNER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 486866945000003, 
+                    "enable": true
+                }, 
+                [
+                    1287335987, 
+                    "\u57fa\u7840\u53d8\u91cf", 
+                    486866945, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "MODIFIER", 
+                                    "buff", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "buff"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_MODIFIER_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 486866945000004, 
+                    "enable": true
+                }, 
+                [
+                    1930195194, 
+                    "\u91ca\u653e", 
+                    486866945, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "ADD_MODIFIER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "u", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                [
+                                    "MODIFIER", 
+                                    "buff", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 486866945000005, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "u", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 11
+                        }, 
+                        {
+                            "arg_type": 100014, 
+                            "args_list": [], 
+                            "sub_type": "CUR_ABILITY"
+                        }, 
+                        null, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true, 
+                        false, 
+                        false, 
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }
+                            ], 
+                            "sub_type": "GET_ABILITY_LEVEL"
+                        }, 
+                        {
+                            "arg_type": 100015, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "condition_type": "FLOAT_COMPARE", 
+                    "element_id": 486866945000002, 
+                    "enable": true
+                }
+            ], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 486866945000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_LEVEL_CHANGED"
+                }
+            ], 
+            "group_id": 134228636, 
+            "p_trigger_id": null, 
+            "trigger_id": 486866945, 
+            "trigger_name": "level change", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "MODIFIER": {
+                        "buff": 0
+                    }, 
+                    "UNIT_ENTITY": {
+                        "u": 0
+                    }
+                }, 
+                {
+                    "buff": 0, 
+                    "u": 0
+                }, 
+                [
+                    "buff", 
+                    "u"
+                ]
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        486866945, 
+                        "level change"
+                    ]
+                }
+            ], 
+            "key": 134228636, 
+            "name": "134228636"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

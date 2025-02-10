@@ -1,0 +1,1073 @@
+{
+    "action": [
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "FLOAT", 
+                                                "秒", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100015, 
+                                    "args_list": [
+                                        "<"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        60.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "FLOAT_COMPARE", 
+                            "element_id": 812019815000011, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        [
+                                                            "FLOAT", 
+                                                            "秒", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 2
+                                                }, 
+                                                {
+                                                    "arg_type": 100015, 
+                                                    "args_list": [
+                                                        "<"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        10.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "FLOAT_COMPARE", 
+                                            "element_id": 812019815000072, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        [
+                                                            "STRING", 
+                                                            "输出格式", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "00:"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "0"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100000, 
+                                                                                    "args_list": [
+                                                                                        [
+                                                                                            "FLOAT", 
+                                                                                            "秒", 
+                                                                                            "local"
+                                                                                        ]
+                                                                                    ], 
+                                                                                    "sub_type": 2
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "F2I"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 812019815000077, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "STRING", 
+                                                                "输出格式", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "00:"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "FLOAT", 
+                                                                                        "秒", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 2
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "F2I"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 812019815000014, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 812019815000067, 
+                            "enable": true, 
+                            "fake_op": [
+                                2
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                [
+                                                                    "FLOAT", 
+                                                                    "秒", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100017, 
+                                                            "args_list": [
+                                                                "-"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100000, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "FLOAT", 
+                                                                                                    "秒", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 2
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100017, 
+                                                                                            "args_list": [
+                                                                                                "/"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                60.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "F2I"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "I2F"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100017, 
+                                                                    "args_list": [
+                                                                        "*"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        60.0
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                }, 
+                                                {
+                                                    "arg_type": 100015, 
+                                                    "args_list": [
+                                                        "<"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        10.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "FLOAT_COMPARE", 
+                                            "element_id": 812019815000036, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        [
+                                                            "STRING", 
+                                                            "输出格式", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "0"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        [
+                                                                                                            "FLOAT", 
+                                                                                                            "秒", 
+                                                                                                            "local"
+                                                                                                        ]
+                                                                                                    ], 
+                                                                                                    "sub_type": 2
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100017, 
+                                                                                                    "args_list": [
+                                                                                                        "/"
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        60.0
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "F2I"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                ":"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "op_arg": [
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ], 
+                                                                    "sub_type": "STR_JOIN"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "0"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100000, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "FLOAT", 
+                                                                                                    "秒", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 2
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100017, 
+                                                                                            "args_list": [
+                                                                                                "-"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100002, 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "arg_type": 100000, 
+                                                                                                                    "args_list": [
+                                                                                                                        {
+                                                                                                                            "arg_type": 100000, 
+                                                                                                                            "args_list": [
+                                                                                                                                [
+                                                                                                                                    "FLOAT", 
+                                                                                                                                    "秒", 
+                                                                                                                                    "local"
+                                                                                                                                ]
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 2
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100017, 
+                                                                                                                            "args_list": [
+                                                                                                                                "/"
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 1
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100000, 
+                                                                                                                            "args_list": [
+                                                                                                                                60.0
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 1
+                                                                                                                        }
+                                                                                                                    ], 
+                                                                                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "sub_type": "F2I"
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": "I2F"
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100017, 
+                                                                                                    "args_list": [
+                                                                                                        "*"
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        60.0
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "F2I"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 812019815000038, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        [
+                                                            "STRING", 
+                                                            "输出格式", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "0"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        [
+                                                                                                            "FLOAT", 
+                                                                                                            "秒", 
+                                                                                                            "local"
+                                                                                                        ]
+                                                                                                    ], 
+                                                                                                    "sub_type": 2
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100017, 
+                                                                                                    "args_list": [
+                                                                                                        "/"
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100000, 
+                                                                                                    "args_list": [
+                                                                                                        60.0
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "F2I"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                ":"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "op_arg": [
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ], 
+                                                                    "sub_type": "STR_JOIN"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100000, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "FLOAT", 
+                                                                                                "秒", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 2
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100017, 
+                                                                                    "args_list": [
+                                                                                        "-"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100000, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100000, 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "arg_type": 100000, 
+                                                                                                                    "args_list": [
+                                                                                                                        [
+                                                                                                                            "FLOAT", 
+                                                                                                                            "秒", 
+                                                                                                                            "local"
+                                                                                                                        ]
+                                                                                                                    ], 
+                                                                                                                    "sub_type": 2
+                                                                                                                }, 
+                                                                                                                {
+                                                                                                                    "arg_type": 100017, 
+                                                                                                                    "args_list": [
+                                                                                                                        "/"
+                                                                                                                    ], 
+                                                                                                                    "sub_type": 1
+                                                                                                                }, 
+                                                                                                                {
+                                                                                                                    "arg_type": 100000, 
+                                                                                                                    "args_list": [
+                                                                                                                        60.0
+                                                                                                                    ], 
+                                                                                                                    "sub_type": 1
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": "F2I"
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "I2F"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100017, 
+                                                                                            "args_list": [
+                                                                                                "*"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                60.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "ARITHMETIC_OPERATION"
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "F2I"
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ANY_VAR_TO_STR"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "STR_JOIN"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 812019815000020, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 812019815000030, 
+                            "enable": true, 
+                            "fake_op": [
+                                2
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 812019815000005, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "输出格式", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 812019815000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "待转化实数：{秒}", 
+    "func_id": "543c362e6f3711ed82861831bf6d4822", 
+    "func_name": "秒转[分-秒]格式", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "秒", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "[分:秒]", 
+                "STRING"
+            ]
+        }
+    ], 
+    "group_id": 0, 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 812019815, 
+    "trigger_name": "秒转[分-秒]格式", 
+    "valid": true, 
+    "var_data": [
+        {
+            "FLOAT": {
+                "秒": 0.0
+            }, 
+            "INTEGER": {}, 
+            "STRING": {
+                "输出格式": ""
+            }
+        }, 
+        {
+            "秒": 0, 
+            "输出格式": 0
+        }, 
+        [
+            "秒", 
+            "输出格式"
+        ]
+    ]
+}

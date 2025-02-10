@@ -1,0 +1,1703 @@
+{
+    "local_variable": {
+        "1546407938": {
+            "variable_dict": {
+                "FLOAT": {
+                    "\u4f24\u5bb3": 0.0, 
+                    "\u4f24\u5bb3\u534a\u5f84": 0.0
+                }, 
+                "INTEGER": {
+                    "\u6301\u7eed\u65f6\u95f4": 0
+                }, 
+                "POINT": {
+                    "\u6280\u80fd\u76ee\u6807\u70b9": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "PROJECTILE": {
+                    "\u6280\u80fd\u6295\u5c04\u7269": 0
+                }, 
+                "SFX_KEY": {
+                    "\u53d7\u51fb\u7279\u6548": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u4f24\u5bb3": 0, 
+                "\u4f24\u5bb3\u534a\u5f84": 0, 
+                "\u53d7\u51fb\u7279\u6548": 0, 
+                "\u6280\u80fd\u6295\u5c04\u7269": 0, 
+                "\u6280\u80fd\u76ee\u6807\u70b9": 0, 
+                "\u6301\u7eed\u65f6\u95f4": 0
+            }
+        }, 
+        "1594757121": {
+            "variable_dict": {
+                "ANGLE": {}, 
+                "FLOAT": {
+                    "\u4f24\u5bb3": 0.0, 
+                    "\u4f24\u5bb3\u534a\u5f84": 0.0
+                }, 
+                "INTEGER": {
+                    "\u6301\u7eed\u65f6\u95f4": 0
+                }, 
+                "NEW_TIMER": {}, 
+                "POINT": {
+                    "\u6280\u80fd\u76ee\u6807\u70b9": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "PROJECTILE": {
+                    "\u6280\u80fd\u6295\u5c04\u7269": 0
+                }, 
+                "PROJECTILE_ENTITY": {}, 
+                "SFX_ENTITY": {}, 
+                "STRING": {}
+            }, 
+            "variable_length_dict": {
+                "\u4f24\u5bb3": 0, 
+                "\u4f24\u5bb3\u534a\u5f84": 0, 
+                "\u6280\u80fd\u6295\u5c04\u7269": 0, 
+                "\u6280\u80fd\u76ee\u6807\u70b9": 0, 
+                "\u6301\u7eed\u65f6\u95f4": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1546407938": {
+            "action": [
+                [
+                    1852859937, 
+                    "\u57fa\u7840\u53d8\u91cf", 
+                    1546407938, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u4f24\u5bb3", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u4f24\u5bb3"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_FLOAT_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2114949123000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "PROJECTILE", 
+                                    "\u6280\u80fd\u6295\u5c04\u7269", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100062, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6280\u80fd\u6295\u5c04\u7269"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_PROJECTILE_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121916117, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "\u6301\u7eed\u65f6\u95f4", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6301\u7eed\u65f6\u95f4"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121695986, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u4f24\u5bb3\u534a\u5f84", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u4f24\u5bb3\u534a\u5f84"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_FLOAT_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121696001, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "SFX_KEY", 
+                                    "\u53d7\u51fb\u7279\u6548", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100066, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u53d7\u51fb\u7279\u6548"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_SFX_KEY_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1345187842000012, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "POINT", 
+                                    "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }
+                            ], 
+                            "sub_type": "ABILITY_RELEASE_POSITION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1546407938000112, 
+                    "enable": true
+                }, 
+                [
+                    1661513684, 
+                    "\u91ca\u653e", 
+                    1546407938, 
+                    "action_type"
+                ], 
+                [
+                    1708377673, 
+                    "\u5217\u4f20\uff1a\u94dc\u96c0\u6625\u6df1", 
+                    1546407938, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100046, 
+                                            "args_list": [
+                                                134227804
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "UNIT_HAS_MODIFIER", 
+                                    "element_id": 1594757121916142, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "PICK_UNIT_DO_ACTION", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100026, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        [
+                                                            "POINT", 
+                                                            "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 19
+                                                }, 
+                                                {
+                                                    "arg_type": 100211, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                [
+                                                                    "FLOAT", 
+                                                                    "\u4f24\u5bb3\u534a\u5f84", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }
+                                                    ], 
+                                                    "sub_type": "CONST_CIRCULAR_SHAPE"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        31
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null, 
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                true, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false
+                                            ], 
+                                            "sub_type": "UNIT_LIST_IN_SHAPE"
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "ADD_MODIFIER", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100046, 
+                                                            "args_list": [
+                                                                134229224
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1594757121695989, 
+                                                    "enable": true, 
+                                                    "op_arg": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ABILITY_OWNER"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100014, 
+                                                            "args_list": [], 
+                                                            "sub_type": "CUR_ABILITY"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                3.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        true, 
+                                                        true, 
+                                                        true, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1594757121696007, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121696037, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                [
+                    1078069058, 
+                    "\u5217\u4f20\uff1a\u5929\u4f5c\u4e4b\u5408", 
+                    1546407938, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100046, 
+                                            "args_list": [
+                                                134234344
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "UNIT_HAS_MODIFIER", 
+                                    "element_id": 1594757121696051, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "RUN_COUNT_TIMER_NO_SAVE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        [
+                                                            "INTEGER", 
+                                                            "\u6301\u7eed\u65f6\u95f4", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 6
+                                                }, 
+                                                {
+                                                    "arg_type": 100016, 
+                                                    "args_list": [
+                                                        "+"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        5
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "MATH_OPERATION"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "PICK_UNIT_DO_ACTION", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100026, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "POINT", 
+                                                                            "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 19
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100211, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "FLOAT", 
+                                                                                    "\u4f24\u5bb3\u534a\u5f84", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 2
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "CONST_CIRCULAR_SHAPE"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [
+                                                                        31
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                {
+                                                                    "arg_type": 100001, 
+                                                                    "args_list": [
+                                                                        true
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                true, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "UNIT_LIST_IN_SHAPE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100022, 
+                                                            "args_list": [
+                                                                {
+                                                                    "action_type": "CREATE_PROJECTILE_NEW", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100062, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "PROJECTILE", 
+                                                                                    "\u6280\u80fd\u6295\u5c04\u7269", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": "VARIABLE"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100004, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "POINT", 
+                                                                                    "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 19
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "ABILITY_OWNER"
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1594757121696068, 
+                                                                    "enable": true, 
+                                                                    "op_arg": [
+                                                                        null, 
+                                                                        {
+                                                                            "arg_type": 100014, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "CUR_ABILITY"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                1.0
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        true, 
+                                                                        true, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "action_type": "APPLY_DAMAGE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "ABILITY_OWNER"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100014, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "CUR_ABILITY"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100064, 
+                                                                            "args_list": [
+                                                                                1
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "FLOAT", 
+                                                                                    "\u4f24\u5bb3", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 2
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1594757121696079, 
+                                                                    "enable": true, 
+                                                                    "op_arg": [
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ]
+                                                                }, 
+                                                                [
+                                                                    1079230466, 
+                                                                    "\u53d7\u51fb\u7279\u6548", 
+                                                                    1546407938, 
+                                                                    "action_type"
+                                                                ], 
+                                                                {
+                                                                    "action_type": "IF_THEN_ELSE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100021, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "BOOLEAN", 
+                                                                                                    "\u7eaf\u51c0\u6a21\u5f0f"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": "VARIABLE"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100035, 
+                                                                                            "args_list": [
+                                                                                                "=="
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "condition_type": "BOOL_COMPARE", 
+                                                                                    "element_id": 1842417667000046, 
+                                                                                    "enable": true
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100022, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "action_type": "CREATE_SFX_ON_UNIT", 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100066, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "SFX_KEY", 
+                                                                                                    "\u53d7\u51fb\u7279\u6548", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 4
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100006, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100003, 
+                                                                                            "args_list": [
+                                                                                                "hit_point"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "bp": false, 
+                                                                                    "element_id": 739201026450117, 
+                                                                                    "enable": true, 
+                                                                                    "op_arg": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                1.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                1.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        null, 
+                                                                                        null
+                                                                                    ], 
+                                                                                    "op_arg_enable": [
+                                                                                        true, 
+                                                                                        true, 
+                                                                                        false, 
+                                                                                        false
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100022, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1842417667000040, 
+                                                                    "enable": true, 
+                                                                    "fake_op": [
+                                                                        2
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1594757121696061, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1594757121696055, 
+                                    "enable": true, 
+                                    "local_var": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            {}, 
+                                            {}
+                                        ]
+                                    }
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "RUN_COUNT_TIMER_NO_SAVE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "\u6301\u7eed\u65f6\u95f4", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "PICK_UNIT_DO_ACTION", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100026, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100004, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "POINT", 
+                                                                            "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 19
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100211, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "FLOAT", 
+                                                                                    "\u4f24\u5bb3\u534a\u5f84", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 2
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "CONST_CIRCULAR_SHAPE"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                {
+                                                                    "arg_type": 100025, 
+                                                                    "args_list": [
+                                                                        31
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                {
+                                                                    "arg_type": 100001, 
+                                                                    "args_list": [
+                                                                        true
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                true, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "UNIT_LIST_IN_SHAPE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100022, 
+                                                            "args_list": [
+                                                                {
+                                                                    "action_type": "CREATE_PROJECTILE_NEW", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100062, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "PROJECTILE", 
+                                                                                    "\u6280\u80fd\u6295\u5c04\u7269", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": "VARIABLE"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100004, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "POINT", 
+                                                                                    "\u6280\u80fd\u76ee\u6807\u70b9", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 19
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "ABILITY_OWNER"
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1685057538000004, 
+                                                                    "enable": true, 
+                                                                    "op_arg": [
+                                                                        null, 
+                                                                        {
+                                                                            "arg_type": 100014, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "CUR_ABILITY"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                1.0
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        true, 
+                                                                        true, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "action_type": "APPLY_DAMAGE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "ABILITY_OWNER"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100014, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "CUR_ABILITY"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100064, 
+                                                                            "args_list": [
+                                                                                1
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100000, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "FLOAT", 
+                                                                                    "\u4f24\u5bb3", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 2
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1685057538000005, 
+                                                                    "enable": true, 
+                                                                    "op_arg": [
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100001, 
+                                                                            "args_list": [
+                                                                                true
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null, 
+                                                                        null
+                                                                    ], 
+                                                                    "op_arg_enable": [
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false, 
+                                                                        false
+                                                                    ]
+                                                                }, 
+                                                                [
+                                                                    1342492427, 
+                                                                    "\u53d7\u51fb\u7279\u6548", 
+                                                                    1546407938, 
+                                                                    "action_type"
+                                                                ], 
+                                                                {
+                                                                    "action_type": "IF_THEN_ELSE", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100021, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "BOOLEAN", 
+                                                                                                    "\u7eaf\u51c0\u6a21\u5f0f"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": "VARIABLE"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100035, 
+                                                                                            "args_list": [
+                                                                                                "=="
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "condition_type": "BOOL_COMPARE", 
+                                                                                    "element_id": 1546407938000135, 
+                                                                                    "enable": true
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100022, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "action_type": "CREATE_SFX_ON_UNIT", 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100066, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "SFX_KEY", 
+                                                                                                    "\u53d7\u51fb\u7279\u6548", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 4
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100006, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100003, 
+                                                                                            "args_list": [
+                                                                                                "hit_point"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100001, 
+                                                                                            "args_list": [
+                                                                                                false
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }
+                                                                                    ], 
+                                                                                    "bp": false, 
+                                                                                    "element_id": 1546407938000144, 
+                                                                                    "enable": true, 
+                                                                                    "op_arg": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                1.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                1.0
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        null, 
+                                                                                        null
+                                                                                    ], 
+                                                                                    "op_arg_enable": [
+                                                                                        true, 
+                                                                                        true, 
+                                                                                        false, 
+                                                                                        false
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100022, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 1546407938000133, 
+                                                                    "enable": true, 
+                                                                    "fake_op": [
+                                                                        2
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1685057538000006, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1685057538000007, 
+                                    "enable": true, 
+                                    "local_var": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            {}, 
+                                            {}
+                                        ]
+                                    }
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121696046, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1546407938000022, 
+                    "enable": true, 
+                    "event_type": "ABILITY_SP_END"
+                }
+            ], 
+            "group_id": 134250600, 
+            "p_trigger_id": null, 
+            "trigger_id": 1546407938, 
+            "trigger_name": "\u65bd\u6cd5\u51fa\u624b", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "FLOAT": {
+                        "\u4f24\u5bb3": 0.0, 
+                        "\u4f24\u5bb3\u534a\u5f84": 0.0
+                    }, 
+                    "INTEGER": {
+                        "\u6301\u7eed\u65f6\u95f4": 0
+                    }, 
+                    "POINT": {
+                        "\u6280\u80fd\u76ee\u6807\u70b9": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "PROJECTILE": {
+                        "\u6280\u80fd\u6295\u5c04\u7269": 0
+                    }, 
+                    "SFX_KEY": {
+                        "\u53d7\u51fb\u7279\u6548": 0
+                    }
+                }, 
+                {
+                    "\u4f24\u5bb3": 0, 
+                    "\u4f24\u5bb3\u534a\u5f84": 0, 
+                    "\u53d7\u51fb\u7279\u6548": 0, 
+                    "\u6280\u80fd\u6295\u5c04\u7269": 0, 
+                    "\u6280\u80fd\u76ee\u6807\u70b9": 0, 
+                    "\u6301\u7eed\u65f6\u95f4": 0
+                }, 
+                [
+                    "\u4f24\u5bb3", 
+                    "\u4f24\u5bb3\u534a\u5f84", 
+                    "\u53d7\u51fb\u7279\u6548", 
+                    "\u6280\u80fd\u6295\u5c04\u7269", 
+                    "\u6280\u80fd\u76ee\u6807\u70b9", 
+                    "\u6301\u7eed\u65f6\u95f4"
+                ]
+            ]
+        }, 
+        "1594757121": {
+            "action": [
+                [
+                    2121695984, 
+                    "\u6280\u80fd\u52a8\u4f5c", 
+                    1594757121, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "CHANGE_UNIT_FACE_ANGLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }
+                                    ], 
+                                    "sub_type": "UNIT_ENTITY_POINT"
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100014, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_ABILITY"
+                                        }
+                                    ], 
+                                    "sub_type": "ABILITY_RELEASE_POSITION"
+                                }
+                            ], 
+                            "sub_type": "GET_POINTS_ANGLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2114949123000089, 
+                    "enable": true, 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ]
+                }, 
+                {
+                    "action_type": "PLAY_ANIMATION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6280\u80fd\u52a8\u753b"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_KV"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121000004, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1594757121000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134250600, 
+            "p_trigger_id": null, 
+            "trigger_id": 1594757121, 
+            "trigger_name": "\u65bd\u6cd5\u5f00\u59cb", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "ANGLE": {}, 
+                    "FLOAT": {
+                        "\u4f24\u5bb3": 0.0, 
+                        "\u4f24\u5bb3\u534a\u5f84": 0.0
+                    }, 
+                    "INTEGER": {
+                        "\u6301\u7eed\u65f6\u95f4": 0
+                    }, 
+                    "NEW_TIMER": {}, 
+                    "POINT": {
+                        "\u6280\u80fd\u76ee\u6807\u70b9": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "PROJECTILE": {
+                        "\u6280\u80fd\u6295\u5c04\u7269": 0
+                    }, 
+                    "PROJECTILE_ENTITY": {}, 
+                    "SFX_ENTITY": {}, 
+                    "STRING": {}
+                }, 
+                {
+                    "\u4f24\u5bb3": 0, 
+                    "\u4f24\u5bb3\u534a\u5f84": 0, 
+                    "\u6280\u80fd\u6295\u5c04\u7269": 0, 
+                    "\u6280\u80fd\u76ee\u6807\u70b9": 0, 
+                    "\u6301\u7eed\u65f6\u95f4": 0
+                }, 
+                [
+                    "\u4f24\u5bb3", 
+                    "\u4f24\u5bb3\u534a\u5f84", 
+                    "\u6280\u80fd\u6295\u5c04\u7269", 
+                    "\u6280\u80fd\u76ee\u6807\u70b9", 
+                    "\u6301\u7eed\u65f6\u95f4"
+                ]
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1546407938, 
+                        "\u65bd\u6cd5\u51fa\u624b"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1594757121, 
+                        "\u65bd\u6cd5\u5f00\u59cb"
+                    ]
+                }
+            ], 
+            "key": 134250600, 
+            "name": "134250600"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "FLOAT": {}, 
+        "SFX_ENTITY": {}, 
+        "UNIT_ENTITY": {}
+    }, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

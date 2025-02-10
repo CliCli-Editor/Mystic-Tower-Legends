@@ -1,0 +1,195 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329131773000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "槽位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329131773000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SEND_CUSTOM_EVENT", 
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1661424560
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "选中单位"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "槽位", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [], 
+                    "sub_type": "GET_UI_COMP_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329131773000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "武将_1技能_移入"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1329131773000001, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "iVwvoeagEe60FMAlpZA-SQ", 
+    "p_trigger_id": null, 
+    "trigger_id": 1329131773, 
+    "trigger_name": "武将1战法_移入", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "槽位": 0, 
+                "玩家id": 0
+            }
+        }, 
+        {
+            "槽位": 0, 
+            "玩家id": 0
+        }, 
+        [
+            "槽位", 
+            "玩家id"
+        ]
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "玩家id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 574161211000003, 
+            "enable": true
+        }, 
+        [
+            1857623148, 
+            "控件同步", 
+            574161211, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "玩家"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8439bde1-cace-424a-bae6-f07a498a97f6"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 574161211000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "显隐"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 574161211000002, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        2068197522
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 574161211000001, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "iaQ1HuagEe66kMAlpZA-SY", 
+    "p_trigger_id": null, 
+    "trigger_id": 574161211, 
+    "trigger_name": "[列传]信息同步_隐藏", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }
+        }, 
+        {
+            "玩家id": 0
+        }, 
+        [
+            "玩家id"
+        ]
+    ]
+}

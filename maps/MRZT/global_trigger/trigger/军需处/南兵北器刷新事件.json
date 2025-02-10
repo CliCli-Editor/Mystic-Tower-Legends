@@ -1,0 +1,180 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1077477654000003, 
+            "enable": true
+        }, 
+        [
+            1253983583, 
+            "抽装备动作", 
+            1077477654, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SEND_CUSTOM_EVENT", 
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1307503251
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1077477654000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100037, 
+                            "args_list": [
+                                "yfkEwGJxEe2QFVS-ZG72hX"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_ROLE_RES"
+                }, 
+                {
+                    "arg_type": 100015, 
+                    "args_list": [
+                        ">="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "军需处刷新价格标准"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                3
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "condition_type": "FLOAT_COMPARE", 
+            "element_id": 1077477654000002, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "军需处_南兵北器刷新"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1077477654000001, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "iYc3QOagEe6ZfcAlpZA-SS", 
+    "p_trigger_id": null, 
+    "trigger_id": 1077477654, 
+    "trigger_name": "南兵北器刷新事件", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }
+        }, 
+        {
+            "玩家id": 0
+        }, 
+        [
+            "玩家id"
+        ]
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 3727390000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "FLOAT", 
+                                "下回合剩余时间"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "下回合剩余时间"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100017, 
+                            "args_list": [
+                                "-"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                10.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "ARITHMETIC_OPERATION"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 3727390000003, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        12
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 3727390000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "iL1+oeagEe6I1MAlpZA-Sf", 
+    "p_trigger_id": null, 
+    "trigger_id": 3727390, 
+    "trigger_name": "[-]时间加速", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }
+        }, 
+        {
+            "玩家id": 0
+        }, 
+        [
+            "玩家id"
+        ]
+    ]
+}

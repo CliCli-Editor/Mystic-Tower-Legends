@@ -1,0 +1,916 @@
+{
+    "action": [
+        {
+            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+            "args_list": [
+                {
+                    "arg_type": 100175, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "银两试炼"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1060696276000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "FOR_INT_DO_ACTION", 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "玩家数量"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100180, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                [
+                                                                    "PLAYER", 
+                                                                    "玩家"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "玩家id", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ROLE_STATUS"
+                                                }, 
+                                                {
+                                                    "arg_type": 100035, 
+                                                    "args_list": [
+                                                        "!="
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100180, 
+                                                    "args_list": [
+                                                        4
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "PLAYER_STATE_COMPARE", 
+                                            "element_id": 1060696276000004, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        [
+                                            1211715591, 
+                                            "传送门投射物", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "PROJECTILE_ENTITY", 
+                                                                "传送门", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100062, 
+                                                            "args_list": [
+                                                                134281002
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                [
+                                                                    "POINT", 
+                                                                    "敌人刷新点"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "玩家id", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 19
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "NONE_UNIT"
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "FLOAT", 
+                                                                            "玩家角度"
+                                                                        ], 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "INTEGER", 
+                                                                                    "玩家id", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 2
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                                                        }, 
+                                                        null, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                3.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                0.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100131, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        true, 
+                                                        false, 
+                                                        true, 
+                                                        true, 
+                                                        true, 
+                                                        false, 
+                                                        false
+                                                    ], 
+                                                    "sub_type": "CREATE_PROJECTILE_NEW"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000005, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1069873458, 
+                                            "单位变量", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100116, 
+                                                            "args_list": [
+                                                                134261465
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100004, 
+                                                            "args_list": [
+                                                                [
+                                                                    "POINT", 
+                                                                    "敌人刷新点"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "玩家id", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 19
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100225, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "FLOAT", 
+                                                                            "玩家角度"
+                                                                        ], 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "INTEGER", 
+                                                                                        "玩家id", 
+                                                                                        "local"
+                                                                                    ]
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 2
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                31
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        false
+                                                    ], 
+                                                    "sub_type": "CREATE_UNIT"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000006, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            2056090760, 
+                                            "血条样式", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_UNIT_BLOOD_BAR_TYPE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100223, 
+                                                    "args_list": [
+                                                        0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000007, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1748078568, 
+                                            "hp", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_ATTR", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100300, 
+                                                    "args_list": [
+                                                        "ATTR_BASE"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100042, 
+                                                    "args_list": [
+                                                        "hp_max"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        999999999.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000008, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1642126351, 
+                                            "def", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_ATTR", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100300, 
+                                                    "args_list": [
+                                                        "ATTR_BASE"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100042, 
+                                                    "args_list": [
+                                                        "defense_phy"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        5.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000009, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "SET_ATTR", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100300, 
+                                                    "args_list": [
+                                                        "ATTR_BASE"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100042, 
+                                                    "args_list": [
+                                                        "defense_mag"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        5.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000010, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1259794020, 
+                                            "spd", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_ATTR", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100300, 
+                                                    "args_list": [
+                                                        "ATTR_BASE"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100042, 
+                                                    "args_list": [
+                                                        "ori_speed"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        150.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000011, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1265656992, 
+                                            "标签", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "UNIT_ADD_TAG", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "精英敌人"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000012, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "UNIT_ADD_TAG", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "银两试炼"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000013, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1179528182, 
+                                            "自定义值：id", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "SET_ENTITY_KV", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "id"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "玩家id", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000014, 
+                                            "enable": true
+                                        }, 
+                                        [
+                                            1442260777, 
+                                            "移动指令", 
+                                            1060696276, 
+                                            "action_type"
+                                        ], 
+                                        {
+                                            "action_type": "UNIT_RELEASE_COMMAND", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "敌人单位", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100216, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100024, 
+                                                            "args_list": [
+                                                                [
+                                                                    "POINT_LIST", 
+                                                                    "敌人路径"
+                                                                ], 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "玩家id", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100051, 
+                                                            "args_list": [
+                                                                0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "op_arg": [
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        true, 
+                                                        true
+                                                    ], 
+                                                    "sub_type": "UNIT_COMMAND_MOVE_ALONG_ROAD"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1060696276000015, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1060696276000016, 
+                            "enable": true, 
+                            "fake_op": [
+                                2
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1060696276000017, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100240, 
+                            "args_list": [
+                                "动作id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_CUS_EVENT_PARAM"
+                }, 
+                {
+                    "arg_type": 100015, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "FLOAT_COMPARE", 
+            "element_id": 1060696276000002, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1546957207
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1060696276000001, 
+            "enable": true, 
+            "event_type": "RECEIVE_CUSTOM_EVENT"
+        }
+    ], 
+    "group_id": "iTMjz+agEe6J68AlpZA-SS", 
+    "p_trigger_id": null, 
+    "trigger_id": 1060696276, 
+    "trigger_name": "[3]刷银两试炼", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }, 
+            "PROJECTILE_ENTITY": {
+                "传送门": 0
+            }, 
+            "UNIT_ENTITY": {
+                "敌人单位": 0
+            }
+        }, 
+        {
+            "传送门": 0, 
+            "敌人单位": 0, 
+            "玩家id": 0
+        }, 
+        [
+            "传送门", 
+            "敌人单位", 
+            "玩家id"
+        ]
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "local_variable": {
+        "959639553": {
+            "variable_dict": {
+                "FLOAT": {
+                    "xyz": 0.0
+                }
+            }, 
+            "variable_length_dict": {
+                "xyz": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "959639553": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "xyz", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 959639553000014, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "RUN_COUNT_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                10
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                [
+                                                    "FLOAT", 
+                                                    "xyz", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        [
+                                                            "FLOAT", 
+                                                            "xyz", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 2
+                                                }, 
+                                                {
+                                                    "arg_type": 100017, 
+                                                    "args_list": [
+                                                        "+"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        0.06
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "ARITHMETIC_OPERATION"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 959639553000012, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_PROJECTILE_SCALE_XYZ", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100077, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PROJECTILE"
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                [
+                                                    "FLOAT", 
+                                                    "xyz", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                [
+                                                    "FLOAT", 
+                                                    "xyz", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                [
+                                                    "FLOAT", 
+                                                    "xyz", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 959639553000004, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 959639553000007, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 959639553000001, 
+                    "enable": true, 
+                    "event_type": "PRODUCE_PROJECTILE"
+                }
+            ], 
+            "group_id": 134234920, 
+            "p_trigger_id": null, 
+            "trigger_id": 959639553, 
+            "trigger_name": "born", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "FLOAT": {
+                        "xyz": 0.0
+                    }
+                }, 
+                {
+                    "xyz": 0
+                }, 
+                [
+                    "xyz"
+                ]
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        959639553, 
+                        "born"
+                    ]
+                }
+            ], 
+            "key": 134234920, 
+            "name": "134234920"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

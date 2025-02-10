@@ -1,0 +1,1383 @@
+{
+    "action": [
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100070, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_UI_COMP_FROM_EVENT"
+                                                }
+                                            ], 
+                                            "sub_type": "ANY_VAR_TO_STR"
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                -5
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                -1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "EXTRACT_STR"
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "=="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "专属装备"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "STRING_COMPARE", 
+                            "element_id": 1715011962000020, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "0dbff1d8-c2cc-4d89-99f3-9ff573d4cc47"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000021, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "按钮序号", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100070, 
+                                                            "args_list": [], 
+                                                            "sub_type": "GET_UI_COMP_FROM_EVENT"
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        -3
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        -1
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "EXTRACT_STR"
+                                        }
+                                    ], 
+                                    "sub_type": "STR_TO_INT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000022, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "玩家id", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }
+                                    ], 
+                                    "sub_type": "PLAYER_ID_NUMBER"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000023, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "名品索引", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "按钮序号", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000024, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "UNIT_ADD_ITEM", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "建造师"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100032, 
+                                    "args_list": [
+                                        [
+                                            "ITEM_NAME", 
+                                            "专属神兵池"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "名品索引", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000025, 
+                            "enable": true, 
+                            "op_arg": [
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ]
+                        }, 
+                        {
+                            "action_type": "SEND_CUSTOM_EVENT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100238, 
+                                    "args_list": [
+                                        1293333092
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "玩家id", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [], 
+                                    "sub_type": "LAST_CREATE_ITEM"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        6
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000026, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "0dbff1d8-c2cc-4d89-99f3-9ff573d4cc47"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000027, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "ce57e655-6c02-4c55-9124-f4ce60a3d551"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000028, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "7a8542a8-cfb4-4822-9c9f-22939e88dac9"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000029, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "CALL_TRIGGER_FUNC", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100177, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "#fe7600obtained Hero-exclusive equipment"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [], 
+                                                    "sub_type": "TRIGGER_PLAYER"
+                                                }
+                                            ], 
+                                            "sub_type": "PLAYER_ID_NUMBER"
+                                        }
+                                    ], 
+                                    "op_arg": [
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        false
+                                    ], 
+                                    "sub_type": "b69a50307a4211ed958f1831bf6d4822"
+                                }
+                            ], 
+                            "bp": false, 
+                            "call_rt_arg_idxes": [], 
+                            "element_id": 1715011962000030, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ROLE_USE_STORE_ITEM", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100134, 
+                                    "args_list": [
+                                        134253640
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1715011962000031, 
+                            "enable": false
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1715011962000032, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }, 
+        1245249915
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "专属装备_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000001, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_1"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000002, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_2"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000003, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_3"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000004, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_4"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000005, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_5"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000006, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_6"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000007, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_7"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000008, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_8"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000009, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_9"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000010, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_10"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000011, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_11"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000012, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_12"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000013, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_13"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000014, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_14"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000015, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_15"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000016, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_16"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000017, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_17"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000018, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_18"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000019, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_19"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000035, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_20"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000040, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_21"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000045, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_22"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000050, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_23"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000055, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_24"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000060, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_25"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000065, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_26"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000070, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_27"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000075, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_28"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000080, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_29"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000085, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_30"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000090, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_31"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000093, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_32"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000098, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_33"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000103, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_34"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000108, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_35"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000113, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_36"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000118, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_37"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000123, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_38"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000128, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_39"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000133, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_40"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000138, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_41"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000143, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_42"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000148, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_43"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000153, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_44"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000158, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_45"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000163, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_46"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000168, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_47"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000173, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_48"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000178, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_49"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000183, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_50"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000188, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_51"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000193, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_52"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000198, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_53"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000203, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_54"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000208, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_55"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000213, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "仙家头像1_56"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715011962000218, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "ibp8QOagEe6jIcAlpZA-Sa", 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "1245249915": {
+            "action": [
+                {
+                    "action_type": "SET_UI_COMP_VISIBLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "0dbff1d8-c2cc-4d89-99f3-9ff573d4cc47"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1245249915000002, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "指定专属武器退出_0"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1245249915000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1715011962, 
+            "trigger_id": 1245249915, 
+            "trigger_name": "子触发器_12", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_id": 1715011962, 
+    "trigger_name": "专属武器触发按钮", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "名品索引": 0, 
+                "按钮序号": 0, 
+                "玩家id": 0
+            }
+        }, 
+        {
+            "名品索引": 0, 
+            "按钮序号": 0, 
+            "玩家id": 0
+        }, 
+        [
+            "名品索引", 
+            "按钮序号", 
+            "玩家id"
+        ]
+    ]
+}

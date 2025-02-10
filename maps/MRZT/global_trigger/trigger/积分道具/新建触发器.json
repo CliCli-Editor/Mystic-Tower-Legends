@@ -1,0 +1,234 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }
+                    ], 
+                    "sub_type": "PLAYER_ID_NUMBER"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 892928376000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "名品索引", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        32
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TABLE_LENGTH"
+                        }
+                    ], 
+                    "sub_type": "RANDOM_INT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 892928376000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": "UNIT_ADD_ITEM", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "建造师"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "玩家id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100032, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ITEM_NAME", 
+                                "专属神兵池"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "名品索引", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 892928376000004, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SEND_CUSTOM_EVENT", 
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1293333092
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100031, 
+                    "args_list": [], 
+                    "sub_type": "LAST_CREATE_ITEM"
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        6
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 892928376000005, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        50
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 892928376000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "ibp8QOagEe6jIcAlpZA-Sa", 
+    "p_trigger_id": null, 
+    "trigger_id": 892928376, 
+    "trigger_name": "新建触发器", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "名品索引": 0, 
+                "玩家id": 0
+            }
+        }, 
+        {
+            "名品索引": 0, 
+            "玩家id": 0
+        }, 
+        [
+            "名品索引", 
+            "玩家id"
+        ]
+    ]
+}

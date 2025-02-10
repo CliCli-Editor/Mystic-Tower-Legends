@@ -1,0 +1,499 @@
+{
+    "local_variable": {
+        "95858689": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "95858689": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "u", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 480014337000036, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "temp", 
+                                    "actor"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 95858689000024, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "PICK_UNIT_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100026, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "u", 
+                                            "actor"
+                                        ]
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "blwr_units_grp"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UNIT_GROUP_KV"
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "IF_THEN_ELSE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100021, 
+                                            "args_list": [
+                                                {
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100006, 
+                                                                    "args_list": [], 
+                                                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "blwr_lvbu"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "GET_BOOLEAN_KV"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100035, 
+                                                            "args_list": [
+                                                                "=="
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                false
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "condition_type": "BOOL_COMPARE", 
+                                                    "element_id": 95858689000063, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [
+                                                {
+                                                    "action_type": "SET_ENTITY_KV", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "blwr_lvbu"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 95858689000053, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "CREATE_LINK_SFX_FROM_UNIT_TO_UNIT", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100191, 
+                                                            "args_list": [
+                                                                102999
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "Body"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                [
+                                                                    "UNIT_ENTITY", 
+                                                                    "u", 
+                                                                    "actor"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "Body"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 95858689000075, 
+                                                    "enable": true, 
+                                                    "op_arg": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                3.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        null, 
+                                                        null, 
+                                                        null, 
+                                                        null
+                                                    ], 
+                                                    "op_arg_enable": [
+                                                        true, 
+                                                        false, 
+                                                        false, 
+                                                        false, 
+                                                        false
+                                                    ]
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                [
+                                                                    "FLOAT", 
+                                                                    "temp", 
+                                                                    "actor"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100006, 
+                                                                            "args_list": [], 
+                                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100301, 
+                                                                            "args_list": [
+                                                                                "ATTR_BASE"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100042, 
+                                                                            "args_list": [
+                                                                                "agility"
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "GET_UNIT_ATTR"
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100017, 
+                                                                    "args_list": [
+                                                                        "*"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        0.1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 370302977000005, 
+                                                    "enable": true
+                                                }, 
+                                                [
+                                                    1472457960, 
+                                                    "\u5438\u6536", 
+                                                    95858689, 
+                                                    "action_type"
+                                                ], 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [], 
+                                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BASE"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "agility"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        0.0
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100017, 
+                                                                    "args_list": [
+                                                                        "-"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "FLOAT", 
+                                                                            "temp", 
+                                                                            "actor"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 2
+                                                                }
+                                                            ], 
+                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 95858689000068, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "ADD_ATTR", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                [
+                                                                    "UNIT_ENTITY", 
+                                                                    "u", 
+                                                                    "actor"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 11
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100300, 
+                                                            "args_list": [
+                                                                "ATTR_BASE"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100042, 
+                                                            "args_list": [
+                                                                "agility"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                [
+                                                                    "FLOAT", 
+                                                                    "temp", 
+                                                                    "actor"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 95858689000048, 
+                                                    "enable": true
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100022, 
+                                            "args_list": [], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 95858689000057, 
+                                    "enable": true, 
+                                    "fake_op": [
+                                        2
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 95858689000021, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 95858689000002, 
+                    "enable": true, 
+                    "event_type": "MODIFIER_CYCLE_TRIGGER"
+                }
+            ], 
+            "group_id": 134218294, 
+            "p_trigger_id": null, 
+            "trigger_id": 95858689, 
+            "trigger_name": "gain", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        95858689, 
+                        "gain"
+                    ]
+                }
+            ], 
+            "key": 134218294, 
+            "name": "134218294"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "FLOAT": {
+            "temp": 0.0
+        }, 
+        "UNIT_ENTITY": {
+            "u": 0
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "temp", 
+                "temp"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "u", 
+                "u"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "temp": 0, 
+        "u": 0
+    }
+}

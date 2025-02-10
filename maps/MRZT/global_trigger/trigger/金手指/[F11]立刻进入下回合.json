@@ -1,0 +1,107 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "当前回合"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "当前回合"
+                                ]
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "INT_PLUS_ONE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1715003435000002, 
+            "enable": false
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "当前回合"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        720
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1715003435000006, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SEND_CUSTOM_EVENT", 
+            "args_list": [
+                {
+                    "arg_type": 100238, 
+                    "args_list": [
+                        1652038731
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1715003435000003, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        87
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1715003435000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "iL1+oeagEe6I1MAlpZA-Sf", 
+    "p_trigger_id": null, 
+    "trigger_id": 1715003435, 
+    "trigger_name": "[F11]立刻进入下回合", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

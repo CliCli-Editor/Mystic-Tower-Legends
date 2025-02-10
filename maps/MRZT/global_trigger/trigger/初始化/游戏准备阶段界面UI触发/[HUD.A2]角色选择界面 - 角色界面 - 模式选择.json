@@ -1,0 +1,902 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "当前按钮序号", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_UI_COMP_FROM_EVENT"
+                                        }
+                                    ], 
+                                    "sub_type": "ANY_VAR_TO_STR"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        -3
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        -1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "EXTRACT_STR"
+                        }
+                    ], 
+                    "sub_type": "STR_TO_INT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 414679448000012, 
+            "enable": true
+        }, 
+        {
+            "action_type": "FOR_INT_DO_ACTION", 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "循环loop", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "玩家数量"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "循环loop", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "31086735-e6df-4bbf-ba9f-5e0d2d9c2ab5"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 414679448000013, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_UI_COMP_TEXT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "循环loop", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "70eaafb2-f6f9-4a87-8d36-12250a6a2090"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                50
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "当前按钮序号", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "1_2"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_STRING_TABLE_VAR_ND"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 414679448000014, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 414679448000015, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "游戏子模式"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "当前按钮序号", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 414679448000017, 
+            "enable": true
+        }, 
+        {
+            "action_type": "FOR_INT_DO_ACTION", 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "循环loop", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100081, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "模式选择按钮"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "LEN_OF_VAR"
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_UI_COMP_VISIBLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "当前按钮序号", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "循环loop", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "FLOAT_COMPARE"
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "TRIGGER_PLAYER"
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                [
+                                                    "UI_COMP", 
+                                                    "模式选择按钮"
+                                                ], 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "循环loop", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "选中"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_UI_COMP_BY_PATH"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 414679448000018, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 414679448000019, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_ENABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "TRIGGER_PLAYER"
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "6f098aca-572f-4876-be2d-26422ad55e29"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 414679448000118, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "TRIGGER_PLAYER"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "09912a96-3c6a-4ab0-b971-9ae82f6ca52f"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 226886037000347, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [], 
+                    "sub_type": "TRIGGER_PLAYER"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "玩家"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "id"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_KV"
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "condition_type": "PLAYER_COMPARE", 
+            "element_id": 414679448000011, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "角色选择状态"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 414679448000073, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        [
+                            "BOOLEAN", 
+                            "全体玩家准备完成态"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 1687159186000106, 
+            "enable": true
+        }
+    ], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式1_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000001, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式2_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000002, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式3_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000003, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式4_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000004, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式5_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000005, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式6_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000006, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式7_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000007, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式8_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000008, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式9_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000009, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式10_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000010, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式11_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000350, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式12_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000381, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式13_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000386, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式14_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000391, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式15_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000396, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式16_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000376, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式17_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000353, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式18_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000358, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式19_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000363, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式20_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000368, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100067, 
+                    "args_list": [
+                        "模式30_0"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 414679448000373, 
+            "enable": true, 
+            "event_type": "TRIGGER_COMPONENT_EVENT"
+        }
+    ], 
+    "group_id": "iMhDQOeAEe6k48AlpZA-ST", 
+    "p_trigger_id": null, 
+    "trigger_id": 414679448, 
+    "trigger_name": "[HUD.A2]角色选择界面 - 角色界面 - 模式选择", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "flag": 0, 
+                "当前按钮序号": 0, 
+                "循环loop": 0
+            }
+        }, 
+        {
+            "flag": 0, 
+            "当前按钮序号": 0, 
+            "循环loop": 0
+        }, 
+        [
+            "flag", 
+            "当前按钮序号", 
+            "循环loop"
+        ]
+    ]
+}

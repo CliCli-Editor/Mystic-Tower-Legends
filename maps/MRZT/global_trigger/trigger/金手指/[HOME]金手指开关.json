@@ -1,0 +1,1315 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "玩家id", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "TRIGGER_PLAYER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "id"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329127451000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "IF_THEN_ELSE", 
+            "args_list": [
+                {
+                    "arg_type": 100021, 
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "BOOLEAN", 
+                                                "金手指开关"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100035, 
+                                    "args_list": [
+                                        "=="
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "condition_type": "BOOL_COMPARE", 
+                            "element_id": 1329127451000003, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SEND_TO_ROLE_GROUP_TEXT_TIME", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "------------------金手指已开------------------"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        1.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000004, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "BOOLEAN", 
+                                                "金手指开关"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000005, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        693653842
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000006, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        2021122103
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000007, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1478611007
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000008, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        90349627
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000009, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        985567297
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000010, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1673531740
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000011, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        995496063
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000012, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        290746494
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000013, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        243310710
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000014, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        581640256
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000015, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1944629315
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000016, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        65581124
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000017, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1457287279
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000018, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        846368843
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000019, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1699401908
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000020, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        140734538
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000021, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1949655285
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000022, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1760633152
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000023, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        489828594
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000024, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1234223409
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000025, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1405325618
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000026, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1879683315
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000027, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        2078241009
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000028, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SEND_TO_ROLE_GROUP_TEXT_TIME", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "玩家id", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "------------------金手指已关------------------"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        1.0
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000029, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "BOOLEAN", 
+                                            "金手指开关"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000030, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        693653842
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000031, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        2021122103
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000032, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1478611007
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000033, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        90349627
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000034, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        985567297
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000035, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1673531740
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000036, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        995496063
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000037, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        290746494
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000038, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        243310710
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000039, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        581640256
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000040, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1944629315
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000041, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        65581124
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000042, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1457287279
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000043, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        846368843
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000044, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1699401908
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000045, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        140734538
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000046, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1949655285
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000047, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1760633152
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000048, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        489828594
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000049, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1234223409
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000050, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1405325618
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000051, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        1879683315
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000052, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_TRIGGER_ENABLED", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100019, 
+                                    "args_list": [
+                                        2078241009
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100048, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1329127451000053, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329127451000054, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": false, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        199
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1329127451000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "iL1+oeagEe6I1MAlpZA-Sf", 
+    "p_trigger_id": null, 
+    "trigger_id": 1329127451, 
+    "trigger_name": "[HOME]金手指开关", 
+    "valid": false, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "玩家id": 0
+            }
+        }, 
+        {
+            "玩家id": 0
+        }, 
+        [
+            "玩家id"
+        ]
+    ]
+}

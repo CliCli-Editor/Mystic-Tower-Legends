@@ -1,0 +1,310 @@
+{
+    "local_variable": {
+        "1193086978": {
+            "variable_dict": {
+                "FLOAT": {
+                    "\u6301\u7eed\u65f6\u95f4": 0.0
+                }, 
+                "STRING": {}
+            }, 
+            "variable_length_dict": {
+                "\u6301\u7eed\u65f6\u95f4": 0
+            }
+        }, 
+        "1594757121": {
+            "variable_dict": {
+                "ANGLE": {}, 
+                "FLOAT": {}, 
+                "PROJECTILE_ENTITY": {}, 
+                "SFX_ENTITY": {}, 
+                "STRING": {}
+            }, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "1193086978": {
+            "action": [
+                [
+                    1514178966, 
+                    "\u57fa\u7840\u53d8\u91cf", 
+                    1193086978, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u6301\u7eed\u65f6\u95f4", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6301\u7eed\u65f6\u95f4"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_FLOAT_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2114949123000003, 
+                    "enable": true
+                }, 
+                [
+                    2022991014, 
+                    "\u91ca\u653e", 
+                    1193086978, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "ADD_MODIFIER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134281028
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121696012, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100014, 
+                            "args_list": [], 
+                            "sub_type": "CUR_ABILITY"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u6301\u7eed\u65f6\u95f4", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        true, 
+                        true, 
+                        true, 
+                        false, 
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1193086978000002, 
+                    "enable": true, 
+                    "event_type": "ABILITY_SP_END"
+                }
+            ], 
+            "group_id": 134268222, 
+            "p_trigger_id": null, 
+            "trigger_id": 1193086978, 
+            "trigger_name": "\u65bd\u6cd5\u51fa\u624b", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "FLOAT": {
+                        "\u6301\u7eed\u65f6\u95f4": 0.0
+                    }, 
+                    "STRING": {}
+                }, 
+                {
+                    "\u6301\u7eed\u65f6\u95f4": 0
+                }, 
+                [
+                    "\u6301\u7eed\u65f6\u95f4"
+                ]
+            ]
+        }, 
+        "1594757121": {
+            "action": [
+                [
+                    1282702126, 
+                    "\u6280\u80fd\u52a8\u4f5c", 
+                    1594757121, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "PLAY_ANIMATION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6280\u80fd\u52a8\u753b"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_STRING_KV"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1594757121000004, 
+                    "enable": true, 
+                    "op_arg": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                -1.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1594757121000001, 
+                    "enable": true, 
+                    "event_type": "ABILITY_PS_START"
+                }
+            ], 
+            "group_id": 134268222, 
+            "p_trigger_id": null, 
+            "trigger_id": 1594757121, 
+            "trigger_name": "\u65bd\u6cd5\u5f00\u59cb", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "ANGLE": {}, 
+                    "FLOAT": {}, 
+                    "PROJECTILE_ENTITY": {}, 
+                    "SFX_ENTITY": {}, 
+                    "STRING": {}
+                }, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1193086978, 
+                        "\u65bd\u6cd5\u51fa\u624b"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1594757121, 
+                        "\u65bd\u6cd5\u5f00\u59cb"
+                    ]
+                }
+            ], 
+            "key": 134268222, 
+            "name": "134268222"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "SFX_ENTITY": {}
+    }, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}

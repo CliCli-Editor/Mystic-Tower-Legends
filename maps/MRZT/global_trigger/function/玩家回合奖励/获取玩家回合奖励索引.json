@@ -1,0 +1,170 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "返回值", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "玩家ID", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "*"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        10
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }, 
+                        {
+                            "arg_type": 100016, 
+                            "args_list": [
+                                "+"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "奖励索引", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "MATH_OPERATION"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1016881494000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "返回值", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1016881494000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "玩家回合奖励索引{玩家ID}{奖励索引}", 
+    "func_id": "83fa6700a46211ee885c047c16178abb", 
+    "func_name": "获取玩家回合奖励索引", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "玩家ID", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "奖励索引", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "索引", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "GznMoaPNEe6i7gR8FheKu-", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1016881494, 
+    "trigger_name": "获取玩家回合奖励索引", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "奖励索引": 0, 
+                "玩家ID": 0, 
+                "返回值": 0
+            }
+        }, 
+        {
+            "奖励索引": 0, 
+            "玩家ID": 0, 
+            "返回值": 0
+        }, 
+        [
+            "奖励索引", 
+            "玩家ID", 
+            "返回值"
+        ]
+    ]
+}
